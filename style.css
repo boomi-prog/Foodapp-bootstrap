@@ -1,0 +1,250 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing:border-box;                                                                                                                                                                                                                                    
+}
+.body{
+    min-height: 100vh;
+    background-image: url(./images/foodimage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.menu{
+    flex-grow: 1;
+}
+.font-family{
+  font-family:'Dancing Script', cursive;
+}
+.restaurant{
+    position:absolute;
+    height: 100px;
+    width: 50%;
+    top:35%;
+    left: 10%;
+    z-index: 2;
+} 
+.food{
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+}
+.order-btn{
+    margin-right: 100px;
+    font-size: 20px;
+    width: 250px;
+}
+.order-btn{
+    width:250px;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon {
+    filter: invert(1);
+}
+/* .foods-list a{
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    
+} */
+@media (max-width:992px){
+     .restaurant{
+    height: 80px;
+    width: 70%;
+    top:50%;
+    left: 10%;
+} 
+}
+@media (max-width:768px){
+    .restaurant{
+    height: 70px;
+    width: 80%;
+    top:50%;
+    left: 10%;
+} 
+}
+.veg-image img{
+    max-width: 300px;
+}
+@media (max-width:520px){
+    .veg-image img{
+    max-width: 100px;
+}
+}
+.junk-food{
+    border-radius: 100%;
+    border: 8px solid  goldenrod;
+    transition: 0.3s;
+}
+.tasty-food{
+  font-family:'Dancing Script',cursive;
+  font-size: 20px;
+}
+/* .offer{
+    width: 40%;
+}  */
+.junk-food:hover{
+    transform:scale(1.1);
+}
+.gap-menu{
+    gap: 50px;
+}
+.foods-list{
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.foods-list a{
+    color: black;
+    text-decoration: none;
+    transition: 0.1s;
+}
+.foods-list a:hover{
+    height: 500px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+}
+.junkfood{
+    border-radius: 100%;
+    transition: 0.3s;
+}
+.junkfood:hover{
+    transform: scale(1.1);
+}
+.foods{
+    background-color: aqua;
+}
+.cart{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+} 
+.border-card{
+    border: none;
+}
+/* .food-image{
+    border:none solid black;
+} */
+.border-curve{
+    border-radius: 0 0 0 10%;
+}
+.view-btn{
+    margin:20px;
+    margin-left: 45%;
+}
+.about-us{
+    height: 100vh;
+    width: 100%;
+}
+.tasty-food-2{
+  font-family:'Dancing Script',cursive;
+  font-size: 40px;
+}
+@media (max-width:520px){
+   .contact-form{
+       width: 90%;
+   }
+}
+.map {
+    width: 45%;
+    height: 70vh;
+}
+@media (max-width:768px){
+    .map {
+    width: 100%;
+    height: 70vh;
+}
+}
+@media (max-width:576px){
+    .map {
+    width: 100%;
+    height: 70vh;
+}
+}
+@media (max-width:400px){
+    .map {
+    width: 100%;
+    height: 70vh;
+}
+}
+@media (max-width:320px){
+    .map {
+    width: 100%;
+    height: 70vh;
+}
+}
+.map iframe {
+    width:100%;
+    height: 50vh;
+    box-sizing: border-box;
+}
+.eating-img{
+    border: 5px solid goldenrod;
+}
+/* .caro-btn{
+   height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: none;
+    }
+.caro-btn-1{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 90%;
+    right:40%;
+    margin-top: 30px;
+    border-radius: 50%;
+    border: none;
+} */
+.caro-btn{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+}
+.caro-container{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.carousel-indicators-1{
+    display: none;
+}
+.carousel-indicators{
+    display: none;
+}
+.footer-container{
+    width: 100%; 
+}
+
+.media-icons i{
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
